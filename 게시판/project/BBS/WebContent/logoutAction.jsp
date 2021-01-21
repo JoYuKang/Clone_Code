@@ -3,13 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Cotent-type" content="text/html"; charset="UTF-8">
 <title>JSP 웹 게시판</title>
 </head>
 <body>
-	<script type="text/javascript">
-		location.href = "main.jsp"
+	<%
+		session.invalidate();
+	%>
+	<script>
+		location.href='main.jsp';
 	</script>
-	
 </body>
 </html>
