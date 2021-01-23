@@ -6,6 +6,7 @@
 <meta http-equiv="Cotent-type" content="text/html"; charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/custom.css">
 <title>JSP 웹 게시판</title>
 </head>
 <body>
@@ -31,8 +32,8 @@
 					data-toggle="dropdown" role="button" aria-haspopup="true"
 					aria-expanded="false">접속하기<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="login.jsp">로그인</a></li>
-						<li><a href="join.jsp">회원가입</a></li>
+						<li><a href="login.jsp">로그인</a></li>
+						<li class="active"><a href="join.jsp">회원가입</a></li>
 					</ul>
 				</li>	
 			</ul>
